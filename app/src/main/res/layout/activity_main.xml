@@ -15,9 +15,25 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/tv_motionEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="motionEvent"
+        android:paddingVertical="5dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_position"/>
 
 
-
-
+    <TextView
+        android:id="@+id/tv_gestureandscroller"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="gestureandscroller"
+        android:paddingVertical="5dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_motionEvent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

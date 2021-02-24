@@ -44,6 +44,7 @@ public class PositionActivity extends AppCompatActivity {
 
                 float translationX = mBinding.tvHaha.getTranslationX();//左上角相当于父容器的偏移量
                 float translationY = mBinding.tvHaha.getTranslationY();//左上角相当于父容器的偏移量
+                
                 x=left+translationX;
                 y=top+translationY;
 

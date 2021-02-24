@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.View">
-        <activity android:name=".PositionActivity"></activity>
+        <activity android:name=".GestureAndScrollerActivity"></activity>
+        <activity android:name=".MotionEventAndTouchSlopActivity" />
+        <activity android:name=".PositionActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

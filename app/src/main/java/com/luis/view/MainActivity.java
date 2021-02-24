@@ -32,6 +32,21 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        mBinding.tvMotionEvent.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, MotionEventAndTouchSlopActivity.class));
+            }
+        });
+
+
+        mBinding.tvGestureandscroller.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, GestureAndScrollerActivity.class));
+            }
+        });
+
         HandlerThread handlerThread = new HandlerThread("query");
         handlerThread.start();
 
